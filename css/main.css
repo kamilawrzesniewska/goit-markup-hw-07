@@ -609,14 +609,14 @@ img {
   margin-bottom: 20px;
 }
 
-.modal-form__text::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-  font-size: 12px;
-}
-
 .modal-form__text:focus {
   border-color: var(--main-color);
   outline: none;
+}
+
+.modal-form__text::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+  font-size: 12px;
 }
 
 .modal-form__policy {
