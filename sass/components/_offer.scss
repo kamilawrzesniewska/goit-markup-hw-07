@@ -1,21 +1,21 @@
-.portfolio-list {
+.offer {
     list-style: none;
     margin-bottom: 94px;
 }
 
-.portfolio {
+.sectionoffer {
     display: flex;
 
 }
 
-.portfolio .portfolio-list {
+.sectionoffer .offer {
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
 
-.header-two {
+.offer__header {
     font-style: bold;
     font-weight: 700;
     font-size: 36px;
@@ -27,7 +27,7 @@
 
 }
 
-.task-text-box {
+.offer__imgwrapper {
     position: absolute;
     width: 100%;
     background-color: rgba(47, 48, 58, 0.8);
@@ -37,7 +37,7 @@
     bottom: 0;
 }
 
-.task-text {
+.offer__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.142;

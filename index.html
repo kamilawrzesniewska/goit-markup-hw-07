@@ -42,8 +42,8 @@
   <!--hero-->  
   <section class="hero">
     <div class="container"> 
-     <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA <br> DLA WASZEGO BIZNESU</h1>
-     <button class="modal-btn" type="button" data-modal-open>Zamów usługe</button>
+     <h1 class="hero__header">EFEKTYWNE ROZWIĄZANIA <br> DLA WASZEGO BIZNESU</h1>
+     <button class="hero__btn" type="button" data-modal-open>Zamów usługe</button>
     </div> 
   </section>  
   <!--adventages-->
@@ -77,31 +77,31 @@
     </div>
   </section>
   <!--offer-->
-  <section class="portfolio">
+  <section class="sectionoffer">
     <div class="container" >
-    <h2 class="header-two">Czym sie zajmujemy</h2> 
-    <ul class="portfolio-list">
-        <li class="portfolio-list-item">
-            <div class="task-image-box">
-                <img class="portfolio-list-item-img" src="/goit-markup-hw-05/images/imgoone.jpg" alt="komputer" width="370" height="294" >
-            <div class="task-text-box">
-                <p class="task-text">Aplikacje komputerowe</p>
+    <h2 class="offer__header">Czym sie zajmujemy</h2> 
+    <ul class="offer">
+        <li class="offer__item">
+            <div class="offer__imgwrapper">
+                <img class="offer__img" src="/goit-markup-hw-05/images/imgoone.jpg" alt="komputer" width="370" height="294" >
+            <div class="offer__textwrapper">
+                <p class="offer__text">Aplikacje komputerowe</p>
                 </div>
                 </div>
             </li>
-        <li class="portfolio-list-item">
-            <div class="task-image-box">
-               <img class="portfolio-list-item-img" src="/goit-markup-hw-05/images/imgtwoo.jpg" alt="laptop" width="370" height="294" >
-               <div class="task-text-box">
-                <p class="task-text">Aplikacje mobilne</p>
+        <li class="offer__item">
+            <div class="offer__imgwrapper">
+               <img class="offer__img" src="/goit-markup-hw-05/images/imgtwoo.jpg" alt="laptop" width="370" height="294" >
+               <div class="offer__textwrapper">
+                <p class="offer__text">Aplikacje mobilne</p>
                </div>
             </div>
                </li>
-        <li class="portfolio-list-item">
-            <div class="task-image-box">
-            <img class="portfolio-list-item-img" src="/goit-markup-hw-05/images/imgthreee.jpg" alt="tablet" width="370" height="294" > 
-            <div class="task-text-box">
-                <p class="task-text">Rozwiązania graficzne</p>
+        <li class="offer__item">
+            <div class="offer__imgwrapper">
+            <img class="offer__img" src="/goit-markup-hw-05/images/imgthreee.jpg" alt="tablet" width="370" height="294" > 
+            <div class="offer__textwrapper">
+                <p class="offer__text">Rozwiązania graficzne</p>
             </div>
             </div>
         </li>
@@ -315,43 +315,43 @@
 
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <svg class="close-btn-icon" data-modal-close>
+        <svg class="close-btn" data-modal-close>
             <use href="./images/icons.svg#icon-close"></use>
         </svg>
 
-        <p class="header-form">Zostaw swoje dane w formularzu poniżej</p>
+        <p class="modal-header">Zostaw swoje dane w formularzu poniżej</p>
         <form class="modal-form" name="contact-form">
-            <label class="label-form-data">Imię
-                <div class="modal-wrapper">
-                    <input class="modal-input" type="text" name="user-name"/>
-                    <svg class="modal-icon" width="18" height="18">
+            <label class="modal-form__field">Imię
+                <div class="modal-form__wrapper">
+                    <input class="modal-form__input" type="text" name="user-name"/>
+                    <svg class="modal-form__icon" width="18" height="18">
                         <use href="./images/icons.svg#icon-imie"></use>
                     </svg>
                 </div>
             </label>
-            <label class="label-form-data">Telefon
-                <div class="modal-wrapper">
-                    <input class="modal-input" type="tel" name="user-phone"/>
-                    <svg class="modal-icon" width="18" height="18">
+            <label class="modal-form__field">Telefon
+                <div class="modal-form__wrapperr">
+                    <input class="modal-form__input" type="tel" name="user-phone"/>
+                    <svg class="modal-form__iconn" width="18" height="18">
                         <use href="./images/icons.svg#icon-telefon"></use>
                     </svg>
                 </div>
             </label>
-            <label class="label-form-data">Email
-                <div class="modal-wrapper">
-                    <input class="modal-input" type="email" name="user-mail"/>
-                    <svg class="modal-icon" width="18" height="18">
-                        <use class="hello" href="./images/icons.svg#icon-email"></use>
+            <label class="modal-form__field">Email
+                <div class="modal-form__wrapper">
+                    <input class="modal-form__input" type="email" name="user-mail"/>
+                    <svg class="modal-form__icon" width="18" height="18">
+                        <use href="./images/icons.svg#icon-email"></use>
                     </svg>
                 </div>
             </label>
-            <label class="label-form-data">Komentarz
-                <textarea class="modal-text" name="user-text" cols="30" rows="10" placeholder="Wprowadź tekst"></textarea>
+            <label class="modal-form__field">Komentarz
+                <textarea class="modal-form__text" name="user-text" cols="30" rows="10" placeholder="Wprowadź tekst"></textarea>
             </label>
-            <div class="policy-wrapper">
-                <input class="checkbox-policy check-hidden" id="user-policy" type="checkbox" name="policy" value="policy">
-                <label for="user-policy" class="policy-text">
-                    Oświadczam, iż akceptuję <a class="policy-link" href="#">Regulamin</a> i <a class="policy-link" href="#">Politykę Prywatności.</a>
+            <div class="modal-form__wrapper">
+                <input class="modal-form__policy check-hidden" id="user-policy" type="checkbox" name="policy" value="policy">
+                <label for="user-policy" class="modal-form__policytext">
+                    Oświadczam, iż akceptuję <a class="modal-form__policylink" href="#">Regulamin</a> i <a class="policy-link" href="#">Politykę Prywatności.</a>
                 </label>
             </div> 
             
