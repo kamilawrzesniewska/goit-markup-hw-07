@@ -755,7 +755,7 @@ img {
   overflow: hidden;
 }
 
-.services__item:hover .overlay__text {
+.services__item:hover .overlayportfolio__text {
   transform: translateY(0);
 }
 
