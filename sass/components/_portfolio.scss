@@ -1,4 +1,4 @@
-.main-list {
+.services {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +6,7 @@
     margin-bottom: 94px;
 }
 
-.main-list-item {
+.services__item {
     width: calc((100%/3));
     margin-top: 50px;
     /*border-bottom: 1px solid var(--border-color);
@@ -18,12 +18,12 @@
 
 /*img {margin-bottom: 20px;} */
 
-.main-list-item :nth-last-child() {
+.services__item :nth-last-child() {
     margin-right: 30px;
 }
 
 
-.main-list-header {
+.services__header {
     font-weight: 700;
     font-style: bold;
     font-size: 18px;
@@ -52,23 +52,23 @@
     border-top: 1px solid var(--border-color);
 }
 
-.porfolio-wrapper:hover {
+.services__wrapper:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         1px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
 }
 
-.box-overlay {
+.overlay {
     position: relative;
     overflow: hidden;
 }
 
-.main-list-item:hover .text-overlay {
+.services__item:hover .text-overlay {
     transform: translateY(0);
 }
 
-.text-overlay {
+.overlay__text {
     position: absolute;
     width: 370;
     height: 294;

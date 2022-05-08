@@ -1,8 +1,8 @@
-.btn-list {
+.portfoliobtn {
     list-style: none;
 }
 
-.btn-list-text {
+.portfoliobtn__text {
     font-family: var(--main-font);
     font-weight: 500;
     font-style: normal;
@@ -19,34 +19,33 @@
     transition-property: color, box-shadow, background-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
+
+    &:hover,
+    &:focus {
+            background-color: var(--main-color);
+            color: var(--white);
+            cursor: pointer;
+            border-style: none;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+                1px 4px 4px rgba(0, 0, 0, 0.06),
+                1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
 }
 
-.porfolio-btn {
+.sectionporfoliobtn {
     margin-bottom: 94px;
     margin-top: 94px;
 
 }
 
-.btn-list {
+.portfoliobtn {
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
 
-.btn-list-item :not(last-child) {
+.portfoliobtn__item :not(last-child) {
     margin-right: 8px;
 }
 
 
-
-
-.btn-list-text:hover,
-.btn-list-text:focus {
-    background-color: var(--main-color);
-    color: var(--white);
-    cursor: pointer;
-    border-style: none;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-        1px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
-}
