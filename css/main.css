@@ -412,6 +412,10 @@ img {
   align-items: center;
 }
 
+__item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .clients__item:not(:last-child) {
   margin-right: 30px;
 }
