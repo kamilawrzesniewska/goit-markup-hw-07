@@ -1,17 +1,15 @@
- .clients {
-     list-style: none;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+.clients {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
- &__item{
-     &:not(:last-child) {
+ .clients__item:not(:last-child) {
      margin-right: 30px;
     }
-}
- }
 
-&__link {
+.clients__link {
     display: flex;
     border: 1px solid var(--link-color);
     border-radius: 4px;
@@ -25,18 +23,20 @@
     }
 }
 
- .sectionclients {
-     margin-bottom: 94px;
-     margin-top: 94px;
- }
- .clients__header {
+.clients__header {
      font-weight: 700;
      font-size: 36px;
      line-height: 1.166;
      text-align: center;
      letter-spacing: 0.03em;
      color: var(--black);
+    margin-bottom: 30px;
+    margin-top: 30px;
  }
+.sectionclients {
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
 
  
 
