@@ -19,7 +19,7 @@
     font-style: bold;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.167;
+    line-height: 1.166;
     letter-spacing: 3%;
     color: var(--main-black);
     text-align: center;
@@ -27,7 +27,7 @@
 
 }
 
-.offer__imgwrapper {
+.offer__text {
     position: absolute;
     width: 100%;
     background-color: rgba(47, 48, 58, 0.8);
@@ -37,7 +37,7 @@
     bottom: 0;
 }
 
-.offer__text {
+.offer__textwrapper {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.142;
