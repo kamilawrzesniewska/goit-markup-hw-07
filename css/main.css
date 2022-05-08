@@ -17,6 +17,8 @@
 body {
   font-family: var(--main-font);
   color: var(--main-color);
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 h1,
@@ -242,17 +244,14 @@ img {
   margin-bottom: 94px;
 }
 
-.sectionadventages .adventages {
+.adventages {
   display: flex;
   justify-content: space-between;
-}
-
-.sectionadventages .adventages__item {
-  width: calc((100%- 3*30px)/4);
-}
-
-.adventages {
   list-style: none;
+}
+
+.adventages__item {
+  width: calc((100%- 3*30px)/4);
 }
 
 .adventages__header {
@@ -328,16 +327,16 @@ img {
   margin: 0 auto;
 }
 
-.contact-list {
+.team {
   list-style: none;
 }
 
-.contact {
+.sectionteam {
   display: flex;
   background-color: var(--btn-backround);
 }
 
-.contact .contact-list {
+.sectionteam .team {
   display: flex;
   justify-content: space-between;
   margin-bottom: 94px;

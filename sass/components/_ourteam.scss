@@ -1,13 +1,13 @@
-.contact-list {
+.team {
     list-style: none;
 }
 
-.contact {
+.sectionteam {
     display: flex;
     background-color: var(--btn-backround);
 }
 
-.contact .contact-list {
+.sectionteam .team {
     display: flex;
     justify-content: space-between;
     margin-bottom: 94px;

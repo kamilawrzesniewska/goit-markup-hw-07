@@ -3,18 +3,16 @@
     margin-bottom: 94px;
 }
 
-.sectionadventages .adventages {
+.adventages {
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
-.sectionadventages .adventages__item {
+.adventages__item {
     width: calc((100%- 3*30px)/4);
 }
 
-.adventages {
-    list-style: none;
-}
 
 .adventages__header {
     font-style: bold;
