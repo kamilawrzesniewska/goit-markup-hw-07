@@ -750,7 +750,7 @@ img {
   cursor: pointer;
 }
 
-.overlay {
+.overlayportfolio {
   position: relative;
   overflow: hidden;
 }
@@ -759,7 +759,7 @@ img {
   transform: translateY(0);
 }
 
-.overlay__text {
+.overlayportfolio__text {
   position: absolute;
   width: 370;
   height: 294;
