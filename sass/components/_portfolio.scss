@@ -1,4 +1,4 @@
-.services {
+.main-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +6,7 @@
     margin-bottom: 94px;
 }
 
-.services__item {
+.main-list-item {
     width: calc((100%/3));
     margin-top: 50px;
     /*border-bottom: 1px solid var(--border-color);
@@ -18,12 +18,12 @@
 
 /*img {margin-bottom: 20px;} */
 
-.services__item :nth-last-child() {
+.main-list-item :nth-last-child() {
     margin-right: 30px;
 }
 
 
-.services__header {
+.main-list-header {
     font-weight: 700;
     font-style: bold;
     font-size: 18px;
@@ -52,23 +52,23 @@
     border-top: 1px solid var(--border-color);
 }
 
-.services__wrapper:hover {
+.porfolio-wrapper:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         1px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
 }
 
-.overlayportfolio {
+.box-overlay {
     position: relative;
     overflow: hidden;
 }
 
-.services__item:hover .overlayportfolio__text {
+.main-list-item:hover .text-overlay {
     transform: translateY(0);
 }
 
-.overlayportfolio__text {
+.text-overlay {
     position: absolute;
     width: 370;
     height: 294;
