@@ -1,22 +1,22 @@
-.agency {
+.sectionadventages {
     margin-top: 94px;
     margin-bottom: 94px;
 }
 
-.agency .agency-box {
+.sectionadventages .adventages {
     display: flex;
     justify-content: space-between;
 }
 
-.agency .agency-box-box {
+.sectionadventages .adventages__item {
     width: calc((100%- 3*30px)/4);
 }
 
-.agency-box {
+.adventages {
     list-style: none;
 }
 
-.header-three {
+.adventages__header {
     font-style: bold;
     font-weight: 700;
     font-size: 14px;
@@ -26,7 +26,7 @@
     margin-bottom: 10px;
 }
 
-.description-text {
+.adventages__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -34,7 +34,7 @@
     color: var(--main-grey);
 }
 
-.agency-icon {
+.adventages__icon {
     background-color: var(--btn-backround);
     margin-bottom: 30px;
     width: 270px;

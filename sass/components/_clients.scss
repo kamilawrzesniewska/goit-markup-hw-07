@@ -1,20 +1,20 @@
- .clients-list {
+ .clients {
      list-style: none;
      display: flex;
      justify-content: center;
      align-items: center;
  }
 
- .clients-list-items:not(:last-child) {
+ .clients__item:not(:last-child) {
      margin-right: 30px;
  }
 
- .clients {
+ .sectionclients {
      margin-bottom: 94px;
      margin-top: 94px;
  }
 
- .clients-link {
+ .clients__link {
      display: flex;
      border: 1px solid var(--link-color);
      border-radius: 4px;
@@ -24,8 +24,8 @@
 
  }
 
- .clients-link:hover,
- .clients-link:focus {
+ .clients__link:hover,
+ .clients__link:focus {
      fill: var(--main-color);
      border-color: var(--main-color);
  }

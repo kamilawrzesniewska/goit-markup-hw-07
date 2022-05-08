@@ -239,25 +239,25 @@ img {
   margin-left: auto;
 }
 
-.agency {
+.sectionadventages {
   margin-top: 94px;
   margin-bottom: 94px;
 }
 
-.agency .agency-box {
+.sectionadventages .adventages {
   display: flex;
   justify-content: space-between;
 }
 
-.agency .agency-box-box {
+.sectionadventages .adventages__item {
   width: calc((100%- 3*30px)/4);
 }
 
-.agency-box {
+.adventages {
   list-style: none;
 }
 
-.header-three {
+.adventages__header {
   font-style: bold;
   font-weight: 700;
   font-size: 14px;
@@ -267,7 +267,7 @@ img {
   margin-bottom: 10px;
 }
 
-.description-text {
+.adventages__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -275,7 +275,7 @@ img {
   color: var(--main-grey);
 }
 
-.agency-icon {
+.adventages__icon {
   background-color: var(--btn-backround);
   margin-bottom: 30px;
   width: 270px;
@@ -405,23 +405,23 @@ img {
   margin-top: 100px;
 }
 
-.clients-list {
+.clients {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.clients-list-items:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients {
+.sectionclients {
   margin-bottom: 94px;
   margin-top: 94px;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   border: 1px solid var(--link-color);
   border-radius: 4px;
@@ -430,8 +430,8 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--main-color);
   border-color: var(--main-color);
 }
@@ -440,8 +440,6 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   background-color: var(--backdrop-color);
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
